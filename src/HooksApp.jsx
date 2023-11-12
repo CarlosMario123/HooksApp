@@ -1,5 +1,6 @@
 import CounterApp from "./1-useState/CounterApp";
 import PostmanLike from "./3-useFetch/InputFetch";
+import WindowWidth from "./moreViews/windowWidth";
 
 import CustomForm from "./useEfect/customForm";
 import SimpleForm from "./useEfect/simpleForm";
@@ -14,6 +15,7 @@ export default function HooksApp() {
         <CounterApp/>
          <SimpleForm/>
          <CustomForm/>
+        <WindowWidth/>
         <PostmanLike/>
         </div>
        
